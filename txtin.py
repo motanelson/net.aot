@@ -27,3 +27,7 @@ def inputs(title:str="input texts",backgrounds:str="black",foregrounds:str="whit
            apps=myapps(root,title,backgrounds,foregrounds)
            root.mainloop()
            return rets
+
+
+a=inputs(title="get me a txt")
+print (a)
